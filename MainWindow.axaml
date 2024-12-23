@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Moneyegy.MainWindow"
+        Title="Moneyegy">
+    <Grid Background="{DynamicResource PrimaryBackground}" ColumnDefinitions="Auto,*">
+        <Border Grid.Column="0" Padding="20">
+            <Grid RowDefinitions="*,Auto">
+                <StackPanel>
+                    <!-- Unless next line is commented/removed, the previewer dosent update for me -->
+                    <Image Source="{SvgImage Assets/Images/logo.svg}"/>
+                    <Button Content="Hello World!"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

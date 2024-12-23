@@ -1,0 +1,13 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Moneyegy.App">
+    <Application.Styles>
+        <StyleInclude Source="/Styles/AppDefaultStyles.axaml"></StyleInclude>
+        <FluentTheme Mode="Light"/>
+    </Application.Styles>
+    
+    <Application.Resources>
+        <SolidColorBrush x:Key="MenuBackground">#05070D</SolidColorBrush>
+        <SolidColorBrush x:Key="PrimaryBackground">#A3C3D8</SolidColorBrush>
+    </Application.Resources>
+</Application>
